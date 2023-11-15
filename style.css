@@ -1,0 +1,116 @@
+html {
+  font-family: monospace;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.site-wrapper {
+  background-color: white;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 1200px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header-title {
+  font-size: 4rem;
+}
+
+.header-img img {
+  height: 200px;
+}
+
+.welcome-msg {
+  color: hotpink;
+  font-size: 3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+}
+
+main div {
+  margin: 20px;
+  width: 400px;
+}
+
+div.place-order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px black solid;
+  font-size: 2rem;
+  padding: 50px;
+}
+
+button#place-order-btn {
+  background-color: hotpink;
+  width: 200px;
+  color: white;
+  border: none;
+  padding: 15px 40px 15px 40px;
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+button#place-order-btn:hover {
+  opacity: 90%;
+}
+
+button#place-order-btn:active {
+  background-color: rgb(253, 67, 160);
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px black solid;
+  font-size: 2rem;
+  padding: 50px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  display: none;
+}
+
+.order-summary div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.order-summary p {
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.pizza-qty-name p {
+  margin: 0px 0px 0px 10px;
+}
+
+div.pizza-qty-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

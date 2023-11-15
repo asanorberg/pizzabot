@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PizzaBot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <!---------------------------- HEADER ---------------------------->
+      <header>
+        <div class="header-title">PizzaBot</div>
+        <div class="header-img">
+          <img src="./assets/pizza_logo.png" alt="pizzabot logo" />
+        </div>
+        <div class="welcome-msg">Welcome to the PizzaBot</div>
+      </header>
+
+      <!------------------------------ MAIN ------------------------------>
+      <main>
+        <!--------------------------PLACE ORDER ---------------------------->
+        <div class="place-order-container">
+          <div class="place-order-msg">
+            Please click here to place your order
+          </div>
+
+          <button id="place-order-btn">Place order</button>
+        </div>
+
+        <!--------------------------ORDER SUMMARY ---------------------------->
+
+        <div class="order-summary invisible" id="order-summary-container">
+          <h2>Order summary</h2>
+          <div class="order-name">Your order:</div>
+          <div class="pizza-qty-name">
+            <p id="pizza-qty"></p>
+            <p id="pizza-name"></p>
+          </div>
+
+          <div class="total-cost">Total cost:</div>
+          <p id="pizza-price"></p>
+
+          <div class="pizza-time">Cooking time:</div>
+          <p id="pizza-time"></p>
+        </div>
+      </main>
+
+      <!--------------------------FOOTER ---------------------------->
+      <footer></footer>
+
+      <script src="code.js"></script>
+    </div>
+  </body>
+</html>
